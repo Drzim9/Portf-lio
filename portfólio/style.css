@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #121212; 
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #bbb; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.sobre, .habilidades, .objetivos, .contato {
+    background-color: #1f1f1f;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.sobre h2, .habilidades h2, .objetivos h2, .contato h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff; 
+}
+
+.habilidades .skill-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.habilidades .skill {
+    width: 22%;
+}
+
+.habilidades .progress {
+    background-color: #333; 
+    border-radius: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.habilidades .html {
+    width: 90%;
+    background-color: #ff5722; 
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades .css {
+    width: 80%;
+    background-color: #2962ff; 
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades .js {
+    width: 70%;
+    background-color: #ffca28; 
+    height: 100%;
+    border-radius: 20px;
+}
+
+.habilidades .python {
+    width: 65%;
+    background-color: #4caf50; 
+    height: 100%;
+    border-radius: 20px;
+}
+
+.objetivos {
+    background-color: #1f1f1f;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    color: #e0e0e0;
+}
+
+.objetivos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.objetivos p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.objetivos ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.objetivos ul li {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #333;
+}
+
+.contato {
+    background-color: #1f1f1f;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+.contato ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contato ul li {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
